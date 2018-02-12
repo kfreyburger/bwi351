@@ -12,7 +12,7 @@ public class P1IntegerArithmetik {
 		c = -(1 + a) * (-b + 2) - b / a + 4 * b % 13 / 2 * 3;
 		System.out.println(c);
 
-	// Test 
+	// Test Push
 	}
 
 }
