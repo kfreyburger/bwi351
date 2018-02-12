@@ -1,4 +1,4 @@
-package v04aAusdruck;
+package v04aAnweisungenTeil1;
 public class P1IntegerArithmetik {
 
 	public static void main(String[] args) {
