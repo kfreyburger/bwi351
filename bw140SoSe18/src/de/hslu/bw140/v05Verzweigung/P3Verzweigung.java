@@ -1,4 +1,4 @@
-package v05Verzweigung;
+package de.hslu.bw140.v05Verzweigung;
 
 
 public class P3Verzweigung {

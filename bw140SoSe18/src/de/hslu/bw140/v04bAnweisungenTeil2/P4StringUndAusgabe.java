@@ -1,4 +1,4 @@
-package v04bAnweisungenTeil2;
+package de.hslu.bw140.v04bAnweisungenTeil2;
 
 public class P4StringUndAusgabe {
   public static void main(String[] args) {

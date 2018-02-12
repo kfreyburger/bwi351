@@ -1,4 +1,4 @@
-package v05Verzweigung;
+package de.hslu.bw140.v05Verzweigung;
 
 public class P2Maximum {
   public static void main(String[] args) {

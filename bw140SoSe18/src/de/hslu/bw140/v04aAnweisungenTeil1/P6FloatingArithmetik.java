@@ -1,4 +1,4 @@
-package v04aAnweisungenTeil1;
+package de.hslu.bw140.v04aAnweisungenTeil1;
 public class P6FloatingArithmetik {
 	public static void main(String[] args) {
 
