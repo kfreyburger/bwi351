@@ -21,5 +21,6 @@ public class P1LineareSuche {
 			System.out.println("Die gesuchte Zahl " + sucheigenschaft
 					+ " kommt nicht in dem Array vor");
 
+		
 	}
 }
