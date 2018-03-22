@@ -17,6 +17,7 @@ public class P1SchleifenMessen {
 				for (int k = 0; k < n; k++) 
 					count++;
 
+		
 		long timeEnd = System.currentTimeMillis();
 
 		System.out.println(count);
