@@ -7,7 +7,9 @@ public class ListeTestprogramm {
     L.einfuegenEnde(5);
     L.einfuegenAnfang(25);
     L.einfuegenAnfang(10);
+    L.einfuegenAnfang(20);
     L.einfuegenEnde(15);
+    L.loeschenAnfang();
 
     System.out.println("Das Maximum der Liste lautet "+L.max());
 

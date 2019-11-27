@@ -40,5 +40,9 @@ public class Liste {
     return result;
 
   }
+  public void loeschenAnfang() {
+//  hier kommt der Algorithmus rein
+
+  }
 
 }
