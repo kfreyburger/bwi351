@@ -9,26 +9,26 @@ public class Suchbaum {
 
  
   public void einfuegen(int wert) {
-    Knoten neuerKnoten = new Knoten(wert, null, null);
+    Knoten neuesBlatt = new Knoten(wert, null, null);
     if (this.wurzel != null) {
       Knoten temp = this.wurzel;
       Knoten parent = null;
 //suche einen freien Platz
       while (temp != null) {
         parent = temp;
-        if ( neuerKnoten.wert > temp.wert )
+        if ( neuesBlatt.wert > temp.wert )
           temp = temp.rechts;
         else   //wenn der Wert schon vorhanden wird links eingetragen
           temp = temp.links;
       }
 //   neuen Knoten eintragen:
-      if ( neuerKnoten.wert > parent.wert )
-          parent.rechts = neuerKnoten;
+      if ( neuesBlatt.wert > parent.wert )
+          parent.rechts = neuesBlatt;
         else
-          parent.links = neuerKnoten;
+          parent.links = neuesBlatt;
    }
     else 
-    	this.wurzel = neuerKnoten;
+    	this.wurzel = neuesBlatt;
     
   }
   private Knoten sucheKnoten(int wert) {
